@@ -2,13 +2,8 @@
 ### 1st step (Monday)
 Create the HTML template for displaying a list of thumbnails with some details. Use the data from the array above.
 
->Example layout:
-![Example layout](img/ui1.png)
-
 ### 2nd step (Tuesday)
 Add modal to display the mid-size image of selected thumbnail
->Example layout:
-![Example layout](img/ui2.png)
 
 ### 3rd step (Wednesday)
  * Sort/display by category
