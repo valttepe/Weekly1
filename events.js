@@ -17,11 +17,11 @@ const openModal = (item) => {
     console.log(item);
     initMap(item);
     // Get the modal elements
-    let image = document.querySelector('#imageholder');
-    let title = document.querySelector('#titleholder');
-    let detail = document.querySelector('#detailholder');
+    const image = document.querySelector('#imageholder');
+    const title = document.querySelector('#titleholder');
+    const detail = document.querySelector('#detailholder');
 
-    let modal = document.querySelector('#myModal');
+    const modal = document.querySelector('#myModal');
 
     console.log(modal);
 
@@ -31,7 +31,7 @@ const openModal = (item) => {
     detail.innerText = item.time;
 
     // Get the <span> element that closes the modal
-    let span = document.getElementsByClassName('close')[0];
+    const span = document.getElementsByClassName('close')[0];
 
     // When the user clicks on <span> (x), close the modal
     span.addEventListener('click', (evt) => {
