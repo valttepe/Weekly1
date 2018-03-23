@@ -1,5 +1,6 @@
 'use strict';
 let map;
+// Creates map with coordinates and adds marker to it.
 const initMap = (item) => {
     let position = {lat: item.coordinates.lat, lng: item.coordinates.lng};
     map = new google.maps.Map(document.getElementById('map'), {
