@@ -13,7 +13,7 @@ const initMap = (item) => {
     });
 };
 
-let openModal = (item) => {
+const openModal = (item) => {
     console.log(item);
     initMap(item);
     // Get the modal elements
